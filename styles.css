@@ -4,9 +4,7 @@
   font-family: 'Segoe UI';
   font-size: 12pt;
 }
-body{  
-  background: #f0f0f0;
-}
+
 .container{
   display: flex;
   flex-direction: column;
@@ -17,16 +15,20 @@ body{
 h1{
   color: navy;
   font-size: 16pt;
+  margin: 10px 0 30px 0;
 }
 
 @media (orientation: landscape) {
   /* При горизонтальной ориентации сайта*/
+  body{  
+    background: #f0f0f0;
+  }
   .container{
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    margin: 40px 20% 0 20%;
+    margin: 40px 30% 0 30%;
     background: white;
     border-radius: 10px;
   }
@@ -34,11 +36,13 @@ h1{
 
 @media (orientation: portrait) {
   /* При вертикальной ориентации сайта*/
+  body{  
+    background: white;
+  }
   .container{
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    background: white;
   }
 }
