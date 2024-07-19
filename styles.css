@@ -3,9 +3,10 @@
   padding: 0;
   font-family: 'Segoe UI';
   font-size: 12pt;
+}
+body{  
   background: #f0f0f0;
 }
-
 .container{
   display: flex;
   flex-direction: column;
@@ -25,9 +26,9 @@ h1{
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    margin: 0 20% 0 20%;
+    margin: 40px 20% 0 20%;
     background: white;
-    height: 100%;
+    border-radius: 10px;
   }
 }
 
@@ -39,6 +40,5 @@ h1{
     justify-items: center;
     align-items: center;
     background: white;
-    height: 100%;
   }
 }
