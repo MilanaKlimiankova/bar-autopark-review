@@ -1,8 +1,17 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Segoe UI';
+  font-size: 12pt;
+}
+
+.container{
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 h1{
   color: navy;
+  font-size: 16pt;
 }
