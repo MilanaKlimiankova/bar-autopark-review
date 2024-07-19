@@ -18,15 +18,24 @@ h1{
 }
 
 @media (orientation: landscape) {
-  /* При горизонтальной ориентации фоновым цветом сайта будет белый */
-  body {
-    background: #FFF;
+  /* При горизонтальной ориентации сайта*/
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 0 20% 0 20%;
+    background: #f0f0f0;
   }
 }
 
 @media (orientation: portrait) {
-  /* При вертикальной ориентации фоновым цветом сайта будет чёрный */
-  body {
-    background: #000;
+  /* При вертикальной ориентации сайта*/
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background: #f0f0f0;
   }
 }
