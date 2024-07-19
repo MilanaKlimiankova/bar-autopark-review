@@ -5,17 +5,10 @@
   font-size: 12pt;
 }
 
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-}
-
 h1{
   color: navy;
   font-size: 16pt;
-  margin: 10px 0 30px 0;
+  margin: 0 0 30px 0;
 }
 
 @media (orientation: landscape) {
@@ -29,6 +22,7 @@ h1{
     justify-items: center;
     align-items: center;
     margin: 40px 30% 0 30%;
+    padding: 20px 0 20px 0;
     background: white;
     border-radius: 10px;
   }
@@ -44,5 +38,6 @@ h1{
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    padding: 20px 0 20px 0;
   }
 }
