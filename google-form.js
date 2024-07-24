@@ -1,26 +1,16 @@
-!function(exports) {
-  exports.submitGoogleForm = submitGoogleForm;
+const form = document.getElementById('myForm');
 
-  function submitGoogleForm(form) {
-    try {
-      var data = [].slice.call(form).map(function(control) {
-        return 'value' in control && control.name ?
-          control.name + '=' + (control.value === undefined ? '' : control.value) :
-          '';
-      }).join('&');
-      var xhr = new XMLHttpRequest();
-
-      xhr.open('POST', form.action + '/formResponse', true);
-      xhr.setRequestHeader('Accept',
-          'application/xml, text/xml, */*; q=0.01');
-      xhr.setRequestHeader('Content-type',
-          'application/x-www-form-urlencoded; charset=UTF-8');
-      xhr.send(data);
-    } catch(e) {}
-
-    form.parentNode.className += ' submitted';
-
-    return false;
-  }
-}(typeof module === 'undefined' ? window : module.exports);
-
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const formData = new FormData(form);
+  fetch(`https://docs.google.com/forms/d/1Hi1kEst031vF1WP9TWjHjBRtiSD5_NVp1TnSoYZWf18/formResponse`, {
+    method: 'POST',
+    body: formData,
+  })
+  .then((response) => {
+    console.log('Форма отправлена!');
+  })
+  .catch((error) => {
+    console.error('Ошибка отправки формы:', error);
+  });
+});
