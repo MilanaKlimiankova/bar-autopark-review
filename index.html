@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <title>Чтение QR-кода</title>
   <link rel="stylesheet" href="styles.css">
-    <script src="google-form.js"></script>
   </head>
 <body>
   <div class='container'>
@@ -16,15 +15,11 @@
     <div>Содержимое 4</div>
     <a href="mailto:klimenkovamilana@gmail.com?subject=Отзыв&body=Текст%20отзыва">Отправить письмо</a>
      
-    <form method="POST"
-      action="https://docs.google.com/forms/d/1Hi1kEst031vF1WP9TWjHjBRtiSD5_NVp1TnSoYZWf18"
-      onsubmit="return window.submitGoogleForm(this);">
-
-      <label>name</label>
-      <!-- view the form and inspect inputs to get the generated names. -->
-      <input name="entry.2345234">
-    
-      <button type=submit>Submit</button>
+   <form action="https://formspree.io/your-email@example.com" method="post">
+      <input type="text" name="name" placeholder="Имя">
+      <input type="email" name="email" placeholder="Электронная почта">
+      <textarea name="message" placeholder="Сообщение"></textarea>
+      <button type="submit">Отправить</button>
     </form>
   </div>
   
