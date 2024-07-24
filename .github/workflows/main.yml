@@ -1,0 +1,25 @@
+name: PHP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install PHP
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y php
+      - name: Run PHP script
+        run: |
+          php -f send-mail.php
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
