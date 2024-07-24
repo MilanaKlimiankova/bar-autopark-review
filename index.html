@@ -16,14 +16,10 @@
     <div>Содержимое 4</div>
     <a href="mailto:klimenkovamilana@gmail.com?subject=Отзыв&body=Текст%20отзыва">Отправить письмо</a>
      
-   <form method="POST"
-      action="https://docs.google.com/forms/d/1Hi1kEst031vF1WP9TWjHjBRtiSD5_NVp1TnSoYZWf18"
-      onsubmit="return window.submitGoogleForm(this);">
-
+   <form id="myForm" method="POST"
+      action="https://docs.google.com/forms/d/1Hi1kEst031vF1WP9TWjHjBRtiSD5_NVp1TnSoYZWf18/formResponse">
   <label>name</label>
-  <!-- view the form and inspect inputs to get the generated names. -->
-  <input name="entry.2345234">
-
+  <input name="review_text">
   <button type=submit>Submit</button>
 </form>
   </div>
