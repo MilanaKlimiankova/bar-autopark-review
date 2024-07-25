@@ -2,7 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const message = urlParams.get('message');
 
 //document.getElementById('message').innerText = message;
-
+/*
 // Содержимое XML файла как строка
 var xmlString = `
 <?xml version="1.0" encoding="UTF-8"?>
@@ -56,3 +56,19 @@ if (bus) {
 } else {
   document.getElementById("bus-info").innerHTML = "Автобус не найден";
 }
+*/
+
+
+var text, parser, xmlDoc;
+
+text = "<bookstore><book>" +
+"<title>Everyday Italian</title>" +
+"<author>Giada De Laurentiis</author>" +
+"<year>2005</year>" +
+"</book></bookstore>";
+
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(text,"text/xml");
+
+document.getElementById("demo").innerHTML =
+xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
