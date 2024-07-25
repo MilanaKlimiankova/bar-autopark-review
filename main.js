@@ -2,7 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const message = urlParams.get('message');
 
 //document.getElementById('message').innerText = message;
-/*
+
 // Содержимое XML файла как строка
 var xmlString = `
 <?xml version="1.0" encoding="UTF-8"?>
@@ -35,7 +35,7 @@ function findBusByGarageNumber(garageNumber) {
       return buses[i];
     }
   }
-  return null;
+  //return null;
 }
 
 // Функция для отображения информации об автобусе
@@ -56,9 +56,9 @@ if (bus) {
 } else {
   document.getElementById("bus-info").innerHTML = "Автобус не найден";
 }
-*/
 
 
+/*
 var text, parser, xmlDoc;
 
 text = `<?xml version="1.0" encoding="UTF-8"?>
@@ -81,4 +81,4 @@ parser = new DOMParser();
 xmlDoc = parser.parseFromString(text,"text/xml");
 
 document.getElementById("demo").innerHTML =
-xmlDoc.getElementsByTagName("bus")[0].childNodes[0].childNodes[0].nodeValue;
+xmlDoc.getElementsByTagName("bus")[0].childNodes[0].childNodes[0].nodeValue;*/
