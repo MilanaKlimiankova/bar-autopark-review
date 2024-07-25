@@ -13,14 +13,19 @@
   }
   body{  
     background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
   }
   .container{
+    width: 40%;
     height: 70vh;
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    margin: 40px 30% 0 30%;
+    margin: 40px 0 0 0;
     padding: 20px 10px 20px 10px;
     background: white;
     border-radius: 10px;
