@@ -62,5 +62,5 @@ function displayBusInfo(bus) {
 
   const photoDiv = document.getElementById('bus_photo');
   const photoURL = bus.getElementsByTagName('bus_photo')[0].textContent;
-  photoDiv.style.background = photoURL;
+  photoDiv.style.background = `url(${photoURL})`;
 }
