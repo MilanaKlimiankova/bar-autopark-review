@@ -1,5 +1,5 @@
 const urlParams = new URLSearchParams(window.location.search);
-const message = urlParams.get('message');
+const qrNumber = urlParams.get('number');
 
 // Загрузить XML файл
 const xmlFile = 'buses.xml';
@@ -11,7 +11,7 @@ xhr.onload = function() {
     const buses = xmlDoc.getElementsByTagName('bus');
 
    
-      const garageNumber = "100239";
+      const garageNumber = "100239"; //заменить на qrNumber
       const busInfo = findBusByGarageNumber(buses, garageNumber);
       if (busInfo) {
         displayBusInfo(busInfo);
