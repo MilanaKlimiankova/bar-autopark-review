@@ -61,14 +61,24 @@ if (bus) {
 
 var text, parser, xmlDoc;
 
-text = "<bookstore><book>" +
-"<title>Everyday Italian</title>" +
-"<author>Giada De Laurentiis</author>" +
-"<year>2005</year>" +
-"</book></bookstore>";
+text = "<?xml version="1.0" encoding="UTF-8"?>
+<buses>
+  <bus>
+    <garage_number>100230</garage_number>
+    <bus_model>LiAZ-5292</bus_model>
+    <bus_photo>https://example.com/bus1.jpg</bus_photo>
+    <driver_name>Иванов Иван Иванович</driver_name>
+  </bus>
+  <bus>
+    <garage_number>100231</garage_number>
+    <bus_model>MAZ-103</bus_model>
+    <bus_photo>https://example.com/bus2.jpg</bus_photo>
+    <driver_name>Петров Петр Петрович</driver_name>
+  </bus>
+</buses>";
 
 parser = new DOMParser();
 xmlDoc = parser.parseFromString(text,"text/xml");
 
 document.getElementById("demo").innerHTML =
-xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+xmlDoc.getElementsByTagName("bus")[0].childNodes[0].nodeValue;
