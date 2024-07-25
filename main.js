@@ -39,7 +39,7 @@ function findBusByGarageNumber(buses, garageNumber) {
 
 // Отобразить информацию об автобусе
 function displayBusInfo(bus) {
-  const busInfoDiv = document.getElementById('bus-info');
+ /* const busInfoDiv = document.getElementById('bus-info');
   busInfoDiv.innerHTML = '';
   const busModel = bus.getElementsByTagName('bus_model')[0].textContent;
   const busPhoto = bus.getElementsByTagName('bus_photo')[0].textContent;
@@ -48,5 +48,19 @@ function displayBusInfo(bus) {
     <h2>Автобус ${busModel}</h2>
     <img src="${busPhoto}" alt="Фото автобуса">
     <p>Водитель: ${driverName}</p>
-  `;
+  `;*/
+
+  const bus_modelDiv = document.getElementById('bus_model');
+  bus_modelDiv.innerHTML = '';
+  const busModel = bus.getElementsByTagName('bus_model')[0].textContent;
+  bus_modelDiv.innerHTML = `Модель автобуса: ${busModel}`;
+
+  const driver_nameDiv = document.getElementById('driver_name');
+  driver_nameDiv.innerHTML = '';
+  const driverName = bus.getElementsByTagName('driver_name')[0].textContent;
+  driver_nameDiv.innerHTML = `Водитель: ${driverName}`;
+
+  const photoDiv = document.getElementById('bus_photo');
+  const photoURL = bus.getElementsByTagName('bus_photo')[0].textContent;
+  photoDiv.style.background = photoURL;
 }
