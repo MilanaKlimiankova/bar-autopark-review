@@ -31,7 +31,7 @@ function findBusByGarageNumber(garageNumber) {
   var buses = xmlDoc.getElementsByTagName("bus");
   for (var i = 0; i < buses.length; i++) {
     var garageNumberElement = buses[i].getElementsByTagName("garage_number")[0];
-    if (garageNumberElement.textContent === garageNumber) {
+    if (garageNumberElement.textContent == garageNumber) {
       return buses[i];
     }
   }
