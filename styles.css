@@ -26,6 +26,9 @@
   }
   #bus_info{
     width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
   }
   #bus_photo{
     width:100%;
