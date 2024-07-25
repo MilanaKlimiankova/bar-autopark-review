@@ -40,7 +40,8 @@
   }
   #bus_photo_container{
     width: 100%;
-    height:40vh;
+    height: auto;
+    max-height: 40vh;
     display: flex;
     alignItems:center;
     margin: 0 0 20px 0;
@@ -48,7 +49,9 @@
     
   }
   #bus_photo{
-    width: 100%;}
+    width: 100%;
+    height: auto;
+    max-height: 40vh;}
     
 }
 
