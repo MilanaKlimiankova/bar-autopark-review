@@ -81,4 +81,4 @@ parser = new DOMParser();
 xmlDoc = parser.parseFromString(text,"text/xml");
 
 document.getElementById("demo").innerHTML =
-xmlDoc.getElementsByTagName("bus")[0].childNodes[0].nodeValue;
+xmlDoc.getElementsByTagName("bus")[0].childNodes[0].childNodes[0].nodeValue;
