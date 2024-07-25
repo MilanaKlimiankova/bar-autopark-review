@@ -32,8 +32,8 @@
   }
   #bus_photo{
     width:100%;
-    max-height: 400px;
-    min-height: 100px;
+    height: auto;
+    min-height: 400px;
     background-size: cover;  /* растягиваем, чтобы покрыть весь блок */
     background-repeat: no-repeat;  /* отключаем повторение */
     margin: 0 0 20px 0;
