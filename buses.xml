@@ -3,19 +3,19 @@
     <bus>
         <garage_number>100230</garage_number>
         <bus_model>LiAZ-5292</bus_model>
-        <bus_photo>https://example.com/bus1.jpg</bus_photo>
+        <bus_photo>images/1.jpg</bus_photo>
         <driver_name>Иванов Иван Иванович</driver_name>
     </bus>
     <bus>
         <garage_number>100231</garage_number>
         <bus_model>MAZ-103</bus_model>
-        <bus_photo>https://example.com/bus2.jpg</bus_photo>
+        <bus_photo>images/2.jpg</bus_photo>
         <driver_name>Петров Петр Петрович</driver_name>
     </bus>
     <bus>
         <garage_number>100232</garage_number>
         <bus_model>PAZ-3205</bus_model>
-        <bus_photo>https://example.com/bus3.jpg</bus_photo>
+        <bus_photo>images/3.jpg</bus_photo>
         <driver_name>Сидоров Сергей Сергеевич</driver_name>
     </bus>
     <bus>
@@ -27,97 +27,97 @@
     <bus>
         <garage_number>100234</garage_number>
         <bus_model>MAN Lion's City</bus_model>
-        <bus_photo>https://example.com/bus5.jpg</bus_photo>
+        <bus_photo>images/4.jpg</bus_photo>
         <driver_name>Орлов Алексей Алексеевич</driver_name>
     </bus>
     <bus>
         <garage_number>100235</garage_number>
         <bus_model>Mercedes-Benz Citaro</bus_model>
-        <bus_photo>https://example.com/bus6.jpg</bus_photo>
+        <bus_photo>images/5.jpg</bus_photo>
         <driver_name>Николаев Николай Николаевич</driver_name>
     </bus>
     <bus>
         <garage_number>100236</garage_number>
         <bus_model>Scania OmniCity</bus_model>
-        <bus_photo>https://example.com/bus7.jpg</bus_photo>
+        <bus_photo>images/6.jpg</bus_photo>
         <driver_name>Федоров Федор Федорович</driver_name>
     </bus>
     <bus>
         <garage_number>100237</garage_number>
         <bus_model>Volvo 7900</bus_model>
-        <bus_photo>https://example.com/bus8.jpg</bus_photo>
+        <bus_photo>images/7.jpg</bus_photo>
         <driver_name>Гордеев Геннадий Геннадьевич</driver_name>
     </bus>
     <bus>
         <garage_number>100238</garage_number>
         <bus_model>LiAZ-6213</bus_model>
-        <bus_photo>https://example.com/bus9.jpg</bus_photo>
+        <bus_photo>images/1.jpg</bus_photo>
         <driver_name>Дмитриев Дмитрий Дмитриевич</driver_name>
     </bus>
     <bus>
         <garage_number>100239</garage_number>
         <bus_model>MAZ-215</bus_model>
-        <bus_photo>https://example.com/bus10.jpg</bus_photo>
+        <bus_photo>images/2.jpg</bus_photo>
         <driver_name>Егоров Евгений Евгеньевич</driver_name>
     </bus>
     <bus>
         <garage_number>100240</garage_number>
         <bus_model>PAZ-4234</bus_model>
-        <bus_photo>https://example.com/bus11.jpg</bus_photo>
+        <bus_photo>images/3.jpg</bus_photo>
         <driver_name>Жуков Жорж Жоржевич</driver_name>
     </bus>
     <bus>
         <garage_number>100241</garage_number>
         <bus_model>Neoplan Cityliner</bus_model>
-        <bus_photo>https://example.com/bus12.jpg</bus_photo>
+        <bus_photo>images/4.jpg</bus_photo>
         <driver_name>Зуев Захар Захарович</driver_name>
     </bus>
     <bus>
         <garage_number>100242</garage_number>
         <bus_model>MAN Lion's Coach</bus_model>
-        <bus_photo>https://example.com/bus13.jpg</bus_photo>
+        <bus_photo>images/5.jpg</bus_photo>
         <driver_name>Ильин Илья Ильич</driver_name>
     </bus>
     <bus>
         <garage_number>100243</garage_number>
         <bus_model>Mercedes-Benz Travego</bus_model>
-        <bus_photo>https://example.com/bus14.jpg</bus_photo>
+        <bus_photo>images/6.jpg</bus_photo>
         <driver_name>Калинин Константин Константинович</driver_name>
     </bus>
     <bus>
         <garage_number>100244</garage_number>
         <bus_model>Scania Irizar</bus_model>
-        <bus_photo>https://example.com/bus15.jpg</bus_photo>
+        <bus_photo>images/7.jpg</bus_photo>
         <driver_name>Лавров Лев Львович</driver_name>
     </bus>
     <bus>
         <garage_number>100245</garage_number>
         <bus_model>Volvo 9700</bus_model>
-        <bus_photo>https://example.com/bus16.jpg</bus_photo>
+        <bus_photo>images/1.jpg</bus_photo>
         <driver_name>Михайлов Михаил Михайлович</driver_name>
     </bus>
     <bus>
         <garage_number>100246</garage_number>
         <bus_model>LiAZ-5256</bus_model>
-        <bus_photo>https://example.com/bus17.jpg</bus_photo>
+        <bus_photo>images/2.jpg</bus_photo>
         <driver_name>Нестеров Николай Николаевич</driver_name>
     </bus>
     <bus>
         <garage_number>100247</garage_number>
         <bus_model>MAZ-206</bus_model>
-        <bus_photo>https://example.com/bus18.jpg</bus_photo>
+        <bus_photo>images/3.jpg</bus_photo>
         <driver_name>Орехов Олег Олегович</driver_name>
     </bus>
     <bus>
         <garage_number>100248</garage_number>
         <bus_model>PAZ-4230</bus_model>
-        <bus_photo>https://example.com/bus19.jpg</bus_photo>
+        <bus_photo>images/4.jpg</bus_photo>
         <driver_name>Павлов Павел Павлович</driver_name>
     </bus>
     <bus>
         <garage_number>100249</garage_number>
         <bus_model>Neoplan Starliner</bus_model>
-        <bus_photo>https://example.com/bus20.jpg</bus_photo>
+        <bus_photo>images/5.jpg</bus_photo>
         <driver_name>Романов Роман Романович</driver_name>
     </bus>
 </buses>
