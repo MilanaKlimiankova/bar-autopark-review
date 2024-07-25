@@ -61,7 +61,7 @@ if (bus) {
 
 var text, parser, xmlDoc;
 
-text = "<?xml version="1.0" encoding="UTF-8"?>
+text = `<?xml version="1.0" encoding="UTF-8"?>
 <buses>
   <bus>
     <garage_number>100230</garage_number>
@@ -75,7 +75,7 @@ text = "<?xml version="1.0" encoding="UTF-8"?>
     <bus_photo>https://example.com/bus2.jpg</bus_photo>
     <driver_name>Петров Петр Петрович</driver_name>
   </bus>
-</buses>";
+</buses>`;
 
 parser = new DOMParser();
 xmlDoc = parser.parseFromString(text,"text/xml");
