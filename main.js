@@ -3,20 +3,28 @@ const message = urlParams.get('message');
 
 //document.getElementById('message').innerText = message;
 
-// Функция для загрузки XML файла
-function loadXMLDoc(filename) {
-  if (window.XMLHttpRequest) {
-    xhttp = new XMLHttpRequest();
-  } else { // code for IE
-    xhttp = new ActiveXObject("Microsoft.XMLDOM");
-  }
-  xhttp.open("GET", filename, false);
-  xhttp.send();
-  return xhttp.responseXML;
-}
+// Содержимое XML файла как строка
+var xmlString = `
+<?xml version="1.0" encoding="UTF-8"?>
+<buses>
+  <bus>
+    <garage_number>100230</garage_number>
+    <bus_model>LiAZ-5292</bus_model>
+    <bus_photo>https://example.com/bus1.jpg</bus_photo>
+    <driver_name>Иванов Иван Иванович</driver_name>
+  </bus>
+  <bus>
+    <garage_number>100231</garage_number>
+    <bus_model>MAZ-103</bus_model>
+    <bus_photo>https://example.com/bus2.jpg</bus_photo>
+    <driver_name>Петров Петр Петрович</driver_name>
+  </bus>
+</buses>
+`;
 
-// Загрузка XML файла
-var xmlDoc = loadXMLDoc("buses.xml");
+// Парсинг XML строки
+var parser = new DOMParser();
+var xmlDoc = parser.parseFromString(xmlString, "application/xml");
 
 // Функция для поиска автобуса по гаражному номеру
 function findBusByGarageNumber(garageNumber) {
@@ -48,4 +56,3 @@ if (bus) {
 } else {
   document.getElementById("bus-info").innerHTML = "Автобус не найден";
 }
-
