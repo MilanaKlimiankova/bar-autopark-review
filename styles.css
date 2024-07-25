@@ -54,7 +54,12 @@
     border-radius: 6px;
   }
   #myForm{
+    width: 100%;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
   }
 }
 
