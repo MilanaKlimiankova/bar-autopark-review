@@ -16,17 +16,17 @@
     margin: 2px;
     height: 40px;
     width: 40px;
-    fill: #337AB7;
+    fill: #ffd500;
     transition: fill 0.3s;
 }
 .full-stars input:checked ~ label svg {
-    fill: #BFE2FF;
+    fill: #fff38a;
 }
 .full-stars .rating-group:hover label svg {
-    fill: #337AB7;
+    fill: #ffd500;
 }
 .full-stars .rating-group input:hover ~ label svg {
-    fill: #BFE2FF;
+    fill: #fff38a;
 }
 
 
