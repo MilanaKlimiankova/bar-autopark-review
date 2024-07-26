@@ -132,12 +132,11 @@
   color: #243678;
   font-size: 40pt;
   text-align: center;
-  margin: 0 0 5vh 0;
+  margin: 5vh 0 5vh 0;
   }
   .text-block{
-    text-indent: 10%;
     width:100%;
-    font-size: 24pt;
+    font-size: 18pt;
     text-align: left;
     margin: 0 0 2vh 0;
     padding: 0;
