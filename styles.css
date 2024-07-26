@@ -17,14 +17,16 @@
     height: 40px;
     width: 40px;
     fill: #ffd500;
+    stroke: black;
     transition: fill 0.3s;
 }
 .full-stars input:checked ~ label svg {
     fill: #fff38a;
-    outline: black;
+    stroke: black;
 }
 .full-stars .rating-group:hover label svg {
     fill: #ffd500;
+    stroke: black;
 }
 .full-stars .rating-group input:hover ~ label svg {
     fill: #fff38a;
@@ -64,7 +66,7 @@
     background: white;
     border-radius: 10px;
     border:0;
-      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
   }
   #bus_info{
     width: 100%;
