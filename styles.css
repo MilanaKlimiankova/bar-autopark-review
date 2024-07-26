@@ -115,12 +115,12 @@
   h1{
   width:100%
   color: #243678;
-  font-size: 3vh;
+  font-size: 32pt;
   text-align: center;
   margin: 0 0 40px 0;
   }
   .text-block{
-    font-size: 2vh;
+    font-size: 24pt;
     text-align: left;
     margin: 0 0 20px 0;
   }
@@ -141,6 +141,7 @@
     flex-direction: column;
     justify-items: center;
     margin: 20px 0 30px 0;
+    font-size: 24pt;
     
   }
   #bus_photo_container{
@@ -159,7 +160,7 @@
   }
   
   #myForm{
-    font-size: 2vh;
+    font-size: 24pt;
     width: 100%;
     margin-top: 5vh;
     display: flex;
