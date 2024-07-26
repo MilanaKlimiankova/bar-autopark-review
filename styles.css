@@ -1,39 +1,3 @@
-.full-stars {
-    text-align: center;
-}
-.full-stars .rating-group {
-    display: inline-flex;
-}
-.full-stars input {
-    position: absolute;
-    left: -9999px;
-}
-.full-stars label {
-    margin: 0;
-    cursor: pointer;
-}
-.full-stars label svg {
-    margin: 2px;
-    height: 40px;
-    width: 40px;
-    fill: #ffd500;
-    stroke: black;
-    transition: fill 0.3s;
-}
-.full-stars input:checked ~ label svg {
-    fill: #fff38a;
-    stroke: black;
-}
-.full-stars .rating-group:hover label svg {
-    fill: #ffd500;
-    stroke: black;
-}
-.full-stars .rating-group input:hover ~ label svg {
-    fill: #fff38a;
-    stroke: black;
-}
-
-
 @media (orientation: landscape) {
   /* При горизонтальной ориентации сайта*/
   *{
@@ -99,6 +63,43 @@
     justify-items: center;
     align-items: center;
   }
+
+
+
+    .full-stars {
+    text-align: center;
+}
+.full-stars .rating-group {
+    display: inline-flex;
+}
+.full-stars input {
+    position: absolute;
+    left: -9999px;
+}
+.full-stars label {
+    margin: 0;
+    cursor: pointer;
+}
+.full-stars label svg {
+    margin: 2px;
+    height: 40px;
+    width: 40px;
+    fill: #ffd500;
+    stroke: black;
+    transition: fill 0.3s;
+}
+.full-stars input:checked ~ label svg {
+    fill: #fff38a;
+    stroke: black;
+}
+.full-stars .rating-group:hover label svg {
+    fill: #ffd500;
+    stroke: black;
+}
+.full-stars .rating-group input:hover ~ label svg {
+    fill: #fff38a;
+    stroke: black;
+}
 }
 
 @media (orientation: portrait) {
@@ -154,12 +155,44 @@
     display: flex;
     flex-direction: column;
     justify-items: start;
-    align-items: center;
+    align-items: left;
   }
- .full-stars{
-     margin: 20px 0 20px 0;
-     
- }
+  .full-stars {
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+.full-stars .rating-group {
+    display: inline-flex;
+}
+.full-stars input {
+    position: absolute;
+    left: -9999px;
+}
+.full-stars label {
+    margin: 0;
+    cursor: pointer;
+}
+.full-stars label svg {
+    margin: 15px;
+    height: 100px;
+    width: 100px;
+    fill: #ffd500;
+    stroke: black;
+    stroke-width: 4px;
+    transition: fill 0.3s;
+}
+.full-stars input:checked ~ label svg {
+    fill: #fff38a;
+    stroke: black;
+}
+.full-stars .rating-group:hover label svg {
+    fill: #ffd500;
+    stroke: black;
+}
+.full-stars .rating-group input:hover ~ label svg {
+    fill: #fff38a;
+    stroke: black;
+}
  .review_text_box{
      width:100%;
      border: 2px solid black;
