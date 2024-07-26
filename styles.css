@@ -204,13 +204,17 @@
      padding-top: 2px;
      padding-left: 10px;
      line-height: 1.2;
+     resize: none;
  }
   #myForm button{
       margin: 70px 0 70px 0;
-      color: #6376ba;
-      padding: 30px 15% 30px 15%;
+      background: navy;
+      color: white;
+      padding: 40px 15% 40px 15%;
       opacity: 1;
       transition: opacity 0.2s;
+      border: none;
+      border-radius: 14px;  
   }
   #myForm button:hover{
       opacity: 0.8;
