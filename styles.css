@@ -125,6 +125,7 @@
     align-items: center;
     padding: 20px 5% 20px 5%;
   }
+  
   #bus_info{
     width: 100%;
     display: flex;
@@ -139,9 +140,7 @@
     max-height: 30vh;
     display: flex;
     alignItems:center;
-    margin: 0 0 20px 0;
-    
-        
+    margin: 0 0 20px 0;        
   }
   #bus_photo{
     width: 100%;
@@ -149,6 +148,7 @@
     max-height: 30vh;
     border-radius: 14px;
   }
+  
   #myForm{
     width: 100%;
     margin-top: 30px;
@@ -178,11 +178,11 @@
     width: 100px;
     fill: #ffd500;
     stroke: black;
-    stroke-width: 4px;
+    stroke-width: 10px;
     transition: fill 0.3s;
 }
 .full-stars input:checked ~ label svg {
-    fill: #fff38a;
+    fill: #e1e4ed;
     stroke: black;
 }
 .full-stars .rating-group:hover label svg {
@@ -190,13 +190,15 @@
     stroke: black;
 }
 .full-stars .rating-group input:hover ~ label svg {
-    fill: #fff38a;
+    fill:#e1e4ed;
     stroke: black;
 }
  .review_text_box{
      width:100%;
-     border: 2px solid black;
+     border: 3px solid #c5c7d1;
      height: 20vh;
+     border-radius: 14px;
+     padding: 15px;
  }
   #myForm button{
       margin: 20px 0 20px 0;
