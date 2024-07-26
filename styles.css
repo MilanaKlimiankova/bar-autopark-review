@@ -28,7 +28,7 @@
     align-items: center;
   }
   .container{
-    width: 40%;
+    width: 30%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -108,24 +108,21 @@
 }
    .review_text_box{
      width:90%;
-     border: 1.5px solid #c5c7d1;
-     height: 100px;
+     border: 2px solid #c5c7d1;
+     height: 70px;
      border-radius: 6px;     
      text-align: left;
      vertical-align: top;
-     padding: 30px;
+     padding: 10px;
      line-height: 1.2;
      resize: none;
-     /*font-size: 12pt;*/
  }
   .label-rate{
-    /*font-size: 12pt;*/
   }
   #myForm button{
       margin: 30px 0 0px 0;
       background: #243678;
       color: white;
-      /*font-size: 12pt;*/
       padding: 20px 10% 20px 10%;
       opacity: 1;
       transition: opacity 0.2s;
@@ -250,7 +247,7 @@
      padding: 30px;
      line-height: 1.2;
      resize: none;
-     font-size: 28pt;
+     font-size: 30pt;
  }
   .label-rate{
     font-size: 32pt;
