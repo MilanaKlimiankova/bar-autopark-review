@@ -64,7 +64,7 @@
     align-items: center;
   }
   #garage_number{
-    visibility: none;
+    display: none;
   }
 
 
@@ -161,7 +161,7 @@
     align-items: left;
   }
   #garage_number{
-    visibility: none;
+    display: none;
   }
   .full-stars {
     text-align: center;
