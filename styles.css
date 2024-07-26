@@ -107,8 +107,8 @@
     fill: #e1e4ed;
 }
    .review_text_box{
-     width:90%;
-     border: 2px solid #c5c7d1;
+     width:100%;
+     border: 1.5px solid #c5c7d1;
      height: 70px;
      border-radius: 6px;     
      text-align: left;
@@ -266,5 +266,8 @@
   #myForm button:action{
       opacity: 0.8;
   }
+  *:focus {
+    outline: none;
+}
 }
 
