@@ -209,6 +209,11 @@
       margin: 70px 0 70px 0;
       color: #6376ba;
       padding: 30px 15% 30px 15%;
+      opacity: 1;
+      transition: opacity 0.2s;
+  }
+  #myForm button:hover{
+      opacity: 0.8;
   }
 }
 
