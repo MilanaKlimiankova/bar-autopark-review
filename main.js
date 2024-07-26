@@ -1,5 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const qrNumber = urlParams.get('number');
+const garageNumberInput = document.getElementById('garage_number');
+garageNumberInput.Text = qrNumber;
 
 // Загрузить XML файл
 const xmlFile = 'buses.xml';
