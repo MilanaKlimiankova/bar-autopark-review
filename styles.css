@@ -49,6 +49,9 @@
     margin-bottom: 30px;
     
   }
+  #bus_info div{
+    width:100%;
+  }
   #bus_info div:first-child{
     margin: 0 0 7px 0;
     font-weight: 600;
