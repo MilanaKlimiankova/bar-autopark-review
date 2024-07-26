@@ -116,12 +116,12 @@
   h1{
   width:100%
   color: #243678;
-  font-size: 48pt;
+  font-size: 3vh;
   text-align: center;
   margin: 0 0 40px 0;
   }
   .text-block{
-    font-size: 28pt;
+    font-size: 2vh;
     text-align: left;
     margin: 0 0 20px 0;
   }
@@ -160,6 +160,7 @@
   }
   
   #myForm{
+    font-size: 2vh;
     width: 100%;
     margin-top: 5vh;
     display: flex;
