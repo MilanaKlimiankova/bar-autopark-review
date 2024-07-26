@@ -86,5 +86,36 @@
     align-items: center;
     padding: 20px 0 20px 0;
   }
+  #bus_info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin-bottom: 30px;
+    
+  }
+  #bus_photo_container{
+    width: 100%;
+    height: auto;
+    max-height: 30vh;
+    display: flex;
+    alignItems:center;
+    margin: 0 5% 20px 5%;
+        
+  }
+  #bus_photo{
+    width: 100%;
+    height: auto;
+    max-height: 30vh;
+    border-radius: 6px;
+  }
+  #myForm{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
 }
 
