@@ -8,17 +8,20 @@
 <body>
   <div class='container'>
     <h1>Заголовок</h1>
+    <div>Пожалуйста, оставьте свой отзыв о поездке на нашем автобусе. Ваше мнение очень важно для нас, и мы будем рады услышать о вашем опыте. Ваш отзыв поможет нам улучшить качество нашего сервиса и сделать его еще более комфортным и удобным для наших пассажиров.</div>
+    <div>Спасибо за то, что вы помогаете нам стать лучше!</div>    
     <div id="bus-info">
-      <div id = "bus_photo_container">
-        <img id = "bus_photo"/>
-      </div>
+      <div>О текущей поездке:</div>
       <div id = "bus_model"></div>
       <div id = "driver_name"></div>
+      <div id = "bus_photo_container">
+        <img id = "bus_photo"/>
+      </div>      
     </div>
     
     <form id="myForm" method="POST" action="https://getform.io/f/bmdpyvxa">
        <input name="garage_number" id ="garage_number" readonly>
-       <label>Оцените поездку</label>
+       <label>Оцените поездку:</label>
        <div class="full-stars">
         <div class="rating-group">
             <!-- по умолчанию 0 -->
@@ -56,7 +59,7 @@
           </div>
         </div>
       
-        <textarea name="review_text" placeholder="Отзыв" class='review_text_box'></textarea>
+        <textarea name="review_text" placeholder="Ваш отзыв" class='review_text_box'></textarea>
         <button type=submit>Отправить</button>
     </form>
     
