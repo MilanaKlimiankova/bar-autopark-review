@@ -63,6 +63,9 @@
     justify-items: center;
     align-items: center;
   }
+  #garage_number{
+    visibility: none;
+  }
 
 
 
@@ -157,6 +160,9 @@
     justify-items: start;
     align-items: left;
   }
+  #garage_number{
+    visibility: none;
+  }
   .full-stars {
     text-align: center;
     margin: 20px 0 20px 0;
@@ -198,7 +204,8 @@
      border: 3px solid #c5c7d1;
      height: 20vh;
      border-radius: 14px;
-     padding: 15px;
+     
+     
  }
   #myForm button{
       margin: 20px 0 20px 0;
