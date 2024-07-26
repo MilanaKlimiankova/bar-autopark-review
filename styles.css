@@ -21,12 +21,14 @@
 }
 .full-stars input:checked ~ label svg {
     fill: #fff38a;
+    outline: black;
 }
 .full-stars .rating-group:hover label svg {
     fill: #ffd500;
 }
 .full-stars .rating-group input:hover ~ label svg {
     fill: #fff38a;
+    stroke: black;
 }
 
 
@@ -61,6 +63,8 @@
     padding: 20px 5% 20px 5%;
     background: white;
     border-radius: 10px;
+    border:0;
+      box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
   }
   #bus_info{
     width: 100%;
