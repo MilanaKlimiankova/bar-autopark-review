@@ -7,9 +7,18 @@
   font-size: 12pt;
   }
   h1{
-  color: navy;
+  width:100%;
+  color: #243678;
+  text-align: center;
   font-size: 16pt;
   margin: 0 0 30px 0;
+  }
+  .text-block{
+    width:100%;
+    font-size: 12pt;
+    text-align: left;
+    margin: 0 0 20px 0;
+    padding: 0;
   }
   body{  
     background: #f0f0f0;
@@ -20,7 +29,7 @@
   }
   .container{
     width: 40%;
-    height: 70vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -30,7 +39,7 @@
     background: white;
     border-radius: 10px;
     border:0;
-      box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
   }
   #bus_info{
     width: 100%;
@@ -67,9 +76,7 @@
     display: none;
   }
 
-
-
-    .full-stars {
+  .full-stars {
     text-align: center;
 }
 .full-stars .rating-group {
@@ -87,21 +94,17 @@
     margin: 2px;
     height: 40px;
     width: 40px;
-    fill: #ffd500;
-    stroke: black;
+    fill: #e1e4ed;
     transition: fill 0.3s;
 }
 .full-stars input:checked ~ label svg {
     fill: #fff38a;
-    stroke: black;
 }
 .full-stars .rating-group:hover label svg {
     fill: #ffd500;
-    stroke: black;
 }
 .full-stars .rating-group input:hover ~ label svg {
-    fill: #fff38a;
-    stroke: black;
+    fill: #e1e4ed;
 }
 }
 
@@ -132,7 +135,7 @@
   color: #243678;
   font-size: 48pt;
   text-align: center;
-  margin: 5vh 0 5vh 0;
+  margin: 2vh 0 4vh 0;
   }
   .text-block{
     width:100%;
@@ -168,7 +171,7 @@
   
   #myForm{
     width: 100%;
-    margin-top: 5vh;
+    margin-top: 4vh;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -209,7 +212,7 @@
     fill:#e1e4ed;
 }
  .review_text_box{
-     width:100%;
+     width:90%;
      border: 3px solid #c5c7d1;
      height: 15vh;
      border-radius: 14px;     
@@ -218,13 +221,13 @@
      padding: 30px;
      line-height: 1.2;
      resize: none;
-     font-size: 32pt;
+     font-size: 28pt;
  }
   .label-rate{
     font-size: 32pt;
   }
   #myForm button{
-      margin: 5vh 0 10vh 0;
+      margin: 4vh 0 10vh 0;
       background: #243678;
       color: white;
       font-size: 32pt;
