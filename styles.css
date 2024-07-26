@@ -105,24 +105,16 @@
 }
 }
 
+
+
+
 @media (orientation: portrait) {
   /* При вертикальной ориентации сайта*/
   *{
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI';
-  }
-  h1{
-  width:100%;
-  color: #243678;
-  font-size: 32pt;
-  text-align: center;
-  margin: 0 0 40px 0;
-  }
-  .text-block{
-    font-size: 24pt;
-    text-align: left;
-    margin: 0 0 20px 0;
+  font-size: 24pt;
   }
   body{  
     background: white;
@@ -133,6 +125,20 @@
     justify-items: center;
     align-items: center;
     padding: 20px 5% 20px 5%;
+  }
+  
+  h1{
+  width:100%;
+  color: #243678;
+  font-size: 40pt;
+  text-align: center;
+  margin: 0 0 5vh 0;
+  }
+  .text-block{
+    font-size: 24pt;
+    text-align: left;
+    margin: 0 0 2vh 0;
+    padding: 0;
   }
   
   #bus_info{
@@ -212,11 +218,13 @@
      padding: 30px;
      line-height: 1.2;
      resize: none;
+     font-size: 24pt;
  }
   #myForm button{
       margin: 5vh 0 10vh 0;
       background: #243678;
       color: white;
+      font-size: 24pt;
       padding: 40px 15% 40px 15%;
       opacity: 1;
       transition: opacity 0.2s;
