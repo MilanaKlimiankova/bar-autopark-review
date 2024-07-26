@@ -157,7 +157,7 @@
     max-height: 30vh;
     display: flex;
     alignItems:center;
-    margin: 0 0 20px 0;        
+    margin: 2vh 0 0 0;        
   }
   #bus_photo{
     width: 100%;
@@ -220,6 +220,9 @@
      resize: none;
      font-size: 32pt;
  }
+  .label-rate{
+    font-size: 32pt;
+  }
   #myForm button{
       margin: 5vh 0 10vh 0;
       background: #243678;
