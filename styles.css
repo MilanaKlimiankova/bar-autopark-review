@@ -153,8 +153,21 @@
     margin-top: 30px;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-items: start;
     align-items: center;
+  }
+ .full-stars{
+     margin: 20px 0 20px 0;
+     
+ }
+ .review_text_box{
+     width:100%;
+     border: 2px solid black;
+     height: 20vh;
+ }
+  #myForm button{
+      margin: 20px 0 20px 0;
+      
   }
 }
 
