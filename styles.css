@@ -107,24 +107,26 @@
     fill: #e1e4ed;
 }
    .review_text_box{
-     width:92%;
+     width:90%;
      margin: 20px 0 0px 0;
-     border: 1.7px solid #c5c7d1;
+     border: 1.6px solid #c5c7d1;
      height: 70px;
      border-radius: 6px;     
      text-align: left;
      vertical-align: top;
-     padding: 5% 5px 5% 5px;
+     padding: 5px 5% 5px 5%;
      line-height: 1.2;
      resize: none;
  }
   .label-rate{
      margin: 0 0 5px 0;
+     font-weight: 600;
   }
   #myForm button{
       margin: 30px 0 0px 0;
       background: #243678;
       color: white;
+      font-weight: 600;
       padding: 20px 10% 20px 10%;
       opacity: 1;
       transition: opacity 0.2s;
@@ -145,7 +147,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI';
-  font-size: 22pt;
+  font-size: 20pt;
+  -webkit-tap-highlight-color: transparent;
   }
   body{  
     background: white;
@@ -211,7 +214,6 @@
   .full-stars {
     text-align: center;
     margin: 10px 0 50px 0;
-    -webkit-tap-highlight-color: transparent;
 }
 .full-stars .rating-group {
     display: inline-flex;
@@ -258,19 +260,21 @@
   }
   .label-rate{
     font-size: 32pt;
+    font-weight: 600;
   }
   #myForm button{
       margin: 4vh 0 10vh 0;
       background: #243678;
       color: white;
       font-size: 32pt;
+      font-weight: 600;
       padding: 40px 15% 40px 15%;
       opacity: 1;
       transition: opacity 0.2s;
       border: none;
       border-radius: 14px;  
   }
-  #myForm button:action{
+  #myForm button:hover{
       opacity: 0.8;
   }
  
