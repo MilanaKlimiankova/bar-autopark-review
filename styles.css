@@ -17,7 +17,7 @@
     width:100%;
     font-size: 12pt;
     text-align: left;
-    margin: 0 0 8px 0;
+    margin: 0 0 10px 0;
     padding: 0;
   }
   body{  
@@ -55,7 +55,7 @@
     max-height: 40vh;
     display: flex;
     alignItems:center;
-    margin: 8px 0 0px 0;
+    margin: 10px 0 0px 0;
         
   }
   #bus_photo{
@@ -107,19 +107,19 @@
     fill: #e1e4ed;
 }
    .review_text_box{
-     width:90%;
+     width:92%;
      margin: 20px 0 0px 0;
-     border: 1.5px solid #c5c7d1;
+     border: 1.7px solid #c5c7d1;
      height: 70px;
      border-radius: 6px;     
      text-align: left;
      vertical-align: top;
-     padding: 5% 10px 5% 10px;
+     padding: 5% 5px 5% 5px;
      line-height: 1.2;
      resize: none;
  }
   .label-rate{
-     margin: 0 0 8px 0;
+     margin: 0 0 5px 0;
   }
   #myForm button{
       margin: 30px 0 0px 0;
@@ -211,6 +211,7 @@
   .full-stars {
     text-align: center;
     margin: 10px 0 50px 0;
+    -webkit-tap-highlight-color: transparent;
 }
 .full-stars .rating-group {
     display: inline-flex;
@@ -218,7 +219,7 @@
 .full-stars input {
     position: absolute;
     left: -9999px;
-    -webkit-tap-highlight-color: transparent;
+    
 }
 .full-stars label {
     margin: 0;
