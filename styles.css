@@ -155,6 +155,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI';
+  font-size: 21pt;
   -webkit-tap-highlight-color: transparent;
   }
   body{  
@@ -177,14 +178,12 @@
   }
   .text-block{
     width:100%;
-    font-size: 21pt;
     text-align: left;
     margin: 0 0 2vh 0;
     padding: 0;
   }
   
   #bus-info{
-    font-size: 21pt;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -192,7 +191,6 @@
     margin: 20px 0 0px 0;    
   }
   #bus-info div{
-     font-size: 21pt;
      width: 100%;
   }
   .bus-info-header{
@@ -267,20 +265,17 @@
      padding: 30px;
      line-height: 1.2;
      resize: none;
-     font-size: 30pt;
  }
    .review_text_box:focus {
     outline: none;
   }
   .label-rate{
-    font-size: 32pt;
     font-weight: 500;
   }
   #myForm button{
       margin: 4vh 0 10vh 0;
       background: #243678;
       color: white;
-      font-size: 32pt;
       font-weight: 500;
       padding: 40px 15% 40px 15%;
       opacity: 1;
