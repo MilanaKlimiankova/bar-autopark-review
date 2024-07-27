@@ -224,6 +224,7 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
+    font-size: 32pt;
   }
   #garage_number{
     display: none;
