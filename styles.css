@@ -270,17 +270,17 @@
      padding: 30px;
      line-height: 1.2;
      resize: none;
-     font-size: 32pt;
+     font-size: 28pt;
  }
    .review_text_box:focus {
     outline: none;
   }
   .label-rate{
-    font-size: 32pt;
+    font-size: 28pt;
     font-weight: 500;
   }
   #myForm button{
-      font-size: 32pt;
+      font-size: 28pt;
       margin: 4vh 0 10vh 0;
       background: #243678;
       color: white;
