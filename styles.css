@@ -52,7 +52,7 @@
   #bus_info div{
     width:100%;
   }
-  #bus_info div:first-child{
+  .bus-info-header{
     margin: 0 0 7px 0;
     font-weight: 600;
   }
@@ -190,7 +190,10 @@
     justify-items: center;
     margin: 20px 0 30px 0;    
   }
-  #bus_info:first-child{
+  #bus_info div{
+     width: 100%;
+  }
+  .bus-info-header{
     margin: 0 0 1vh 0;
     font-weight: 500;
   }
