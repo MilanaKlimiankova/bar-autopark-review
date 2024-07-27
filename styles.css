@@ -155,7 +155,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI';
-  font-size: 21pt;
+  font-size: 28pt;
   -webkit-tap-highlight-color: transparent;
   }
   body{  
@@ -182,7 +182,12 @@
     margin: 0 0 2vh 0;
     padding: 0;
   }
-  
+  .intro{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;   
+  }
   #bus-info{
     width: 100%;
     display: flex;
