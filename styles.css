@@ -184,6 +184,7 @@
   }
   
   #bus-info{
+    font-size: 21pt;
     width: 100%;
     display: flex;
     flex-direction: column;
