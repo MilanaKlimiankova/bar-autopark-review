@@ -224,7 +224,6 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    font-size: 48pt;
   }
   #garage_number{
     display: none;
@@ -271,14 +270,17 @@
      padding: 30px;
      line-height: 1.2;
      resize: none;
+     font-size: 48pt;
  }
    .review_text_box:focus {
     outline: none;
   }
   .label-rate{
+    font-size: 48pt;
     font-weight: 500;
   }
   #myForm button{
+      font-size: 48pt;
       margin: 4vh 0 10vh 0;
       background: #243678;
       color: white;
