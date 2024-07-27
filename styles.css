@@ -155,7 +155,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI';
-  font-size: 28pt;
+  /*font-size: 28pt;*/
   -webkit-tap-highlight-color: transparent;
   }
   body{  
