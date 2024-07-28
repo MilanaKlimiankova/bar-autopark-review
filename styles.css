@@ -155,7 +155,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI';
-  font-size: 4vw;
+  font-size: 3vw;
   -webkit-tap-highlight-color: transparent;
   }
   body{  
@@ -275,9 +275,11 @@
     outline: none;
   }
   .label-rate{
+    font-size: 4vw;
     font-weight: 500;
   }
   #myForm button{
+      font-size: 4vw;
       margin: 4vh 0 10vh 0;
       background: #243678;
       color: white;
