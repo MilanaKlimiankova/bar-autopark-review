@@ -21,7 +21,7 @@
     <bus>
         <garage_number>100233</garage_number>
         <bus_model>MAZ-257</bus_model>
-        <bus_photo>https://example.com/bus4.jpg</bus_photo>
+        <bus_photo>images/2.jpg</bus_photo>
         <driver_name>Кузнецов Дмитрий Дмитриевич</driver_name>
     </bus>
     <bus>
