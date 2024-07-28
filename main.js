@@ -1,8 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const qrNumber = urlParams.get('number');
 const garageNumberInput = document.getElementById('garage_number');
-garageNumberInput.value = "100239"; //заменить на qrNumber
-
+garageNumberInput.value = qrNumber;
 // Загрузить XML файл
 const xmlFile = 'buses.xml';
 const xhr = new XMLHttpRequest();
@@ -13,7 +12,7 @@ xhr.onload = function() {
     const buses = xmlDoc.getElementsByTagName('bus');
 
    
-      const garageNumber = "100239"; //заменить на qrNumber
+      const garageNumber = qrNumber;
       const busInfo = findBusByGarageNumber(buses, garageNumber);
       if (busInfo) {
         displayBusInfo(busInfo);
