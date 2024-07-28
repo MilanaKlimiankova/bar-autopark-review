@@ -261,6 +261,7 @@
     fill:#e1e4ed;
 }
  .review_text_box{
+    font-size: 2.5vw;
      width:92%;
      border: 3px solid #c5c7d1;
      height: 15vh;
@@ -275,11 +276,11 @@
     outline: none;
   }
   .label-rate{
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 500;
   }
   #myForm button{
-      font-size: 6vw;
+      font-size: 5vw;
       margin: 4vh 0 10vh 0;
       background: #243678;
       color: white;
