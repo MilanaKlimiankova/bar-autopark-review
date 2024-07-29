@@ -40,17 +40,6 @@ function findBusByGarageNumber(buses, garageNumber) {
 
 // Отобразить информацию об автобусе
 function displayBusInfo(bus) {
- /* const busInfoDiv = document.getElementById('bus-info');
-  busInfoDiv.innerHTML = '';
-  const busModel = bus.getElementsByTagName('bus_model')[0].textContent;
-  const busPhoto = bus.getElementsByTagName('bus_photo')[0].textContent;
-  const driverName = bus.getElementsByTagName('driver_name')[0].textContent;
-  busInfoDiv.innerHTML = `
-    <h2>Автобус ${busModel}</h2>
-    <img src="${busPhoto}" alt="Фото автобуса">
-    <p>Водитель: ${driverName}</p>
-  `;*/
-
   const bus_modelDiv = document.getElementById('bus_model');
   bus_modelDiv.innerHTML = '';
   const busModel = bus.getElementsByTagName('bus_model')[0].textContent;
