@@ -18,5 +18,5 @@
 После отправки пользователем отзыва, выбранная оценка и текст отзыва отображаются в личном кабинете getform.io:
 
 <p align="center">
-  <img width="600" src="https://github.com/user-attachments/assets/d2ac3a69-d271-42a8-a97d-b790b8be4967">
+  <img width="700" src="https://github.com/user-attachments/assets/d2ac3a69-d271-42a8-a97d-b790b8be4967">
 </p>
