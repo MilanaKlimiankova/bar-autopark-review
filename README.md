@@ -6,7 +6,8 @@
   <img width="250" src="https://github.com/user-attachments/assets/a9254c9b-a1c8-489a-b03d-770cd09cc863">
 </p>
 
-Данный QR-код был создан при помощи моей программы, с которой можно ознакомиться в репозитории [QR-Generator](https://github.com/MilanaKlimiankova/QR-Generator).
+> [!NOTE]
+> Данный QR-код был создан при помощи моей программы, с которой можно ознакомиться в репозитории [QR-Generator](https://github.com/MilanaKlimiankova/QR-Generator).
 
 На странице отображается информация об автобусе, включая модель и фото автобуса, ФИО водителя, соответствующую гаражному номеру (загружается из XML-файла):
 
