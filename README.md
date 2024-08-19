@@ -9,7 +9,7 @@
 </p>
 
 > [!NOTE]
-> Данный QR-код был создан при помощи моей программы, с которой можно ознакомиться в репозитории [QR-Generator](https://github.com/MilanaKlimiankova/bar-autopark-QR-Generator).
+> Данный QR-код был создан при помощи моей программы, с которой можно ознакомиться в репозитории [bar-autopark-QR-Generator](https://github.com/MilanaKlimiankova/bar-autopark-QR-Generator).
 
 На странице отображается информация об автобусе, включая модель и фото автобуса, ФИО водителя, соответствующую гаражному номеру (загружается из XML-файла):
 
