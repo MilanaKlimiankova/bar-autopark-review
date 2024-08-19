@@ -12,11 +12,7 @@
 На странице отображается информация об автобусе, включая модель и фото автобуса, ФИО водителя, соответствующую гаражному номеру (загружается из XML-файла):
 
 <p align="center">
-  <img width="500" src="https://github.com/user-attachments/assets/323018be-4b67-47c6-942c-61fdff84a54b">
+  <img width="250" src="https://github.com/user-attachments/assets/0fb5ac7a-fef7-4658-a2c0-3fda0a07983d">
 </p>
 
 После отправки пользователем отзыва, выбранная оценка и текст отзыва отображаются в личном кабинете getform.io:
-
-<p align="center">
-  <img width="700" src="https://github.com/user-attachments/assets/d2ac3a69-d271-42a8-a97d-b790b8be4967">
-</p>
