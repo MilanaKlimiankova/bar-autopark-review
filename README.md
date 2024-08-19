@@ -2,7 +2,9 @@
 
 Чтобы "пощупать" проект, отсканируйте QR-код, приведённый ниже. При сканировании QR-кода происходит переход на страницу для отправки отзыва, в качестве URL-параметра передаётся гаражный номер автобуса (в котором размещён QR-код).
 
-![QR-код для перехода на страницу отправки отзыва](https://github.com/user-attachments/assets/a9254c9b-a1c8-489a-b03d-770cd09cc863)
+<p align="center">
+  <img width="200" src="https://github.com/user-attachments/assets/a9254c9b-a1c8-489a-b03d-770cd09cc863">
+</p>
 
 Данный QR-код был создан при помощи моей программы, с которой можно ознакомиться в репозитории [QR-Generator](https://github.com/MilanaKlimiankova/QR-Generator).
 
